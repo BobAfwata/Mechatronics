@@ -6,8 +6,6 @@ import math
 
 angle = 90
 
-
-
 for angle in range(-180,180,30):
     print(math.sin(angle))
     print(math.cos(angle))
