@@ -7,14 +7,33 @@ full_name = f_name + "  " + s_name
 
 print("My full name is " ,full_name)
 
+print("My full name is  {}".format(full_name))
+
+
+
+print(f"My full name is {full_name}")
+
+print("My full name is  %s ".format(full_name))
+
+print("Hello \\ world")
+print("\'A man is born to suffer\' - Bob Afwata 2025 ")
+print("\"A man is born to suffer\" - Bob Afwata 2025 ")
+print("\a")
+
+print(" I am {0} and I come from {1}" .format("Bob" , "Kenya"))
+print(" I am {name} and I come from {country}" .format( name ="Bob" , country = "Kenya"))
+
+print("My average of this {0} was {1:.2f}%    {2:.3f}%".format("semester", 78.234876,25.9099))
+
+
 #string operations 
 
-#.upper() convert lower case strings  to upper cases 
+#.upper() convert lower case strings  to upper case 
 
 name = "bob"
 print(name.upper())
 
-#.lower() convert upper case strings  to lower cases 
+#.lower() convert upper case strings  to lower case 
 
 name = "BOB"
 print(name.lower())
