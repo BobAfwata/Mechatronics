@@ -4,7 +4,9 @@
 #mutable - size / content
 fruits = ["Lemon", "Orange","Apple","Kiwi","Peaches","Mangoes","Guavas"] #string
 
+
 print(fruits) 
+print(type(fruits))
 fruits[0] = "Banana"
 print(fruits) 
 
