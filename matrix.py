@@ -6,6 +6,12 @@
 # A inverse  
 # Dot Product ,Cross Product
 
+
+# list of a list 
+numbers = [1,2,3]
+matrix_A = [[1,2,3],[4,5,6],[7,8,9]]
+
+# R C 
 matrix_a = [[1, 2],  
             [3, 4]]
 
@@ -25,3 +31,4 @@ for i in range(2):
 
 for row in result:
     print(row)
+

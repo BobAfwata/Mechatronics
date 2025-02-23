@@ -1,11 +1,19 @@
 #!/usr/bin/env python
 
 # list of fruits 
-#mutable - size / content
+# mutable - size / content one can change the size 
+# array === same to lists
+# list_name = [""]
 fruits = ["Lemon", "Orange","Apple","Kiwi","Peaches","Mangoes","Guavas"] #string
+#            -7          -6        -5    -4   -3      -2         -1
+cities = ["Nairobi","Khartoum","Algiers","Rabat"]
 
+friends = ["Jada","Riak","Moses","Emmanuel"]
 
-print(fruits) 
+print(fruits)
+print(friends)  
+print(cities)  
+
 print(type(fruits))
 fruits[0] = "Banana"
 print(fruits) 
@@ -23,7 +31,7 @@ fruits.append("Lime")
 fruits.append("Avocado")
 
 print(fruits)
-fruits.pop()
+fruits.pop() # removes last item
 print(fruits)
 fruits.pop()
 print(fruits)
@@ -34,6 +42,6 @@ fruits.insert(3,"Pawpaw")
 fruits.extend(["Tomatoes","Cherry","Grapes"])
 print(fruits)
 
-#fruits.sort()
-#fruits.clear()
-#print(fruits)
+fruits.sort() # alphabetical  order
+#fruits.clear() #makes list empty
+print(fruits)

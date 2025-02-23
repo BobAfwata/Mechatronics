@@ -6,6 +6,9 @@ from array import *
 
 ages = array('i' ,[23,45,67,78,89,29]) # i - integers
 
+print(ages[0])
+print(ages[1])
+
 """
 print(ages[0])
 print(ages[1])
@@ -22,11 +25,17 @@ print(ages)
 
 ages[2] = 75
 
+ages.pop() # removes the last item in the array
 ages.pop()
 print(ages)
 
+print(len(ages)) #size of array (how may items are in the array)
+
 ages.reverse()
 print(ages)
+
+for i in ages:
+    print(i)
 
 #print(ages[6]) # out of index error
 
